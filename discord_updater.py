@@ -1,3 +1,6 @@
+# Created by: Xic_I
+# Github: https://github.com/Xic-I
+
 import requests
 import os
 import sys
