@@ -18,5 +18,5 @@ if os.getuid() != 0:
     print('The command dpkg cannot be used.\nAre you Root?')
     sys.exit()
 print('Installing Discord...')
-os.system(f'sudo dpkg -i {file_name}')
+os.system(f'dpkg -i {file_name}')
 print('Discord Installed.')
